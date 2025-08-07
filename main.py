@@ -10,6 +10,11 @@ import logging
 import re
 from typing import Optional
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
