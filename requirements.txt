@@ -3,4 +3,7 @@ uvicorn
 transformers
 torch
 python-dotenv
-langchain-huggingface>=0.0.5
+huggingface_hub
+langchain
+langchain-huggingface
+pydantic
